@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contacto - J&M Puertas Automáticas Perú</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">
+  <img src="fotos/logo JJM v.jpg" alt="Logo J&M">
+    </div>
+  <nav class="nav">
+    <a href="index.html">Inicio</a>
+    <a href="nosotros.html">Nosotros</a>
+    <a href="servicios.html">Servicios</a>
+    <a href="#" class="active">Contacto</a>
+  </nav>
+  <div class="contacto">
+  <i class="fas fa-phone"></i> 955 523 125
+  </div>
+</header>
+
+<main>
+ <div class="container">
+    <h2>¿Necesitas ayuda?</h2>
+    <p>Rellene el formulario con sus datos y nuestro equipo le prestará asistencia y encontrará la mejor solución para usted.</p>
+
+<form id="form-contacto" class="formulario">
+  <div class="fila">
+    <div class="campo">
+      <label for="soy">Soy un *</label>
+      <select id="soy" name="soy" required>
+        <option value="">- Seleccionar -</option>
+        <option value="particular">Particular</option>
+        <option value="instalador">Instalador</option>
+        <option value="distribuidor">Distribuidor</option>
+        <option value="centro de asistencia">Centro de Asistencia</option>
+        <option value="arquitecto o proyectista">Arquitecto o Proyectista</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="fila">
+    <div class="campo">
+      <label for="nombre">Nombre *</label>
+      <input type="text" id="nombre" name="nombre" required>
+    </div>
+    <div class="campo">
+      <label for="apellido">Apellido *</label>
+      <input type="text" id="apellido" name="apellido" required>
+    </div>
+  </div>
+
+  <div class="fila">
+    <div class="campo">
+      <label for="pais">País *</label>
+      <input type="text" id="pais" name="pais" value="Peru" required>
+    </div>
+    <div class="campo">
+      <label for="ciudad">Ciudad *</label>
+      <select id="ciudad" name="ciudad" required>
+        <option value="">- Seleccionar -</option>
+        <option value="lima">Lima</option>
+        <option value="arequipa">Arequipa</option>
+        <option value="trujillo">Trujillo</option>
+        <option value="callao">Callao</option>
+         <option value="chiclayo">Chiclayo</option>
+        <option value="piura">Piura</option>
+        <option value="huancayo">Huancayo</option>
+        <option value="cusco">Cusco</option>
+        <option value="iquitos">Iquitos</option>
+        <option value="chimbote">Chimbote</option>
+        <option value="pucallpa">Pucallpa</option>
+        <option value="tacna">Tacna</option>
+        <option value="cajamarca">Cajamarca</option>
+        <option value="ica">Ica</option>
+        <option value="juliaca">Juliaca</option>
+        <option value="sullana">Sullana</option>
+        <option value="chincha">Chincha</option>
+        <option value="ayacucho">Ayacucho</option>
+        <option value="huánuco">Huánuco</option>
+        <option value="tarapoto">Tarapoto</option>
+        <option value="puno">Puno</option>
+        <option value="paita">Paita</option>
+        <option value="huaraz">Huaraz</option>
+        <option value="tumbes">Tumbes</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="fila">
+    <div class="campo">
+      <label for="provincia">Provincia *</label>
+      <input type="text" id="provincia" name="provincia" required>
+    </div>
+  </div>
+
+  <div class="fila">
+    <div class="campo">
+      <label for="codigo_postal">Código Postal *</label>
+      <input type="text" id="codigo_postal" name="codigo_postal" required>
+    </div>
+    <div class="campo">
+      <label for="telefono">Teléfono</label>
+      <input type="tel" id="telefono" name="telefono">
+    </div>
+  </div>
+
+  <div class="fila">
+    <div class="campo full">
+      <label for="correo">Correo electrónico *</label>
+      <input type="email" id="correo" name="correo" required>
+    </div>
+  </div>
+
+  <div class="fila">
+    <div class="campo">
+      <label for="objeto">Objeto *</label>
+      <select id="objeto" name="objeto" required>
+        <option value="">- Seleccionar -</option>
+        <option value="consulta">Consulta</option>
+        <option value="soporte">Soporte</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="fila">
+    <div class="campo full">
+      <label for="mensaje">Mensaje *</label>
+      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+    </div>
+  </div>
+
+  <div class="fila">
+    <div class="campo">
+      <label><input type="checkbox" name="consentimiento" value="aceptado" required> Acepto el uso de mis datos personales</label>
+    </div>
+  </div>
+
+  <div class="fila">
+    <button type="submit">Enviar</button>
+  </div>
+</form>
+
+    <div class="map-container">
+      <h2 class="map-title"><i class="fas fa-map-marked-alt"></i> Nuestra ubicación</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.879580411374!2d-76.97081552403683!3d-12.132605888184444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c6f37bb31347%3A0xf0ae99e1627efdf7!2sPje.%20Los%20Mangos%20146-A%2C%20San%20Juan%20de%20Lurigancho%2015332!5e0!3m2!1ses!2spe!4v1687543900000"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+      <p class="address"><i class="fas fa-map-marker-alt"></i> Pje. Los Mangos 146-A, San Juan de Lurigancho 15332</p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-left">
+      <img src="fotos/logo JJM v.jpg" alt="Logo" class="footer-logo">
+      <div class="footer-contact">
+        <p>Contáctenos:</p>
+        <p><i class="fas fa-phone"></i> 955 523 125</p>
+        <p><i class="fas fa-envelope"></i> jmventas@puertasautomaticas-peru.com</p>
+      </div>
+    </div>
+    <div class="social-icons">
+       <a href="https://www.facebook.com/puertasdecocheras?locale=es_LA"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/company/puertas-autom%C3%A1ticas-per%C3%B9/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/puertas.automaticas.peru/"><i class="fab fa-instagram"></i></a>
+        <a href="https://es.pinterest.com/puertasautomaticasperu/"><i class="fab fa-pinterest"></i></a>
+        <a href="https://www.youtube.com/@puertasautomaticasperu3259"><i class="fab fa-youtube"></i></a>
+    </div>
+  </div>
+  <p class="footer-bottom">Copyright 2025 J&M Puertas Automáticas Perú, todos los derechos reservados.</p>
+</footer>
+
+<a href="https://wa.me/51955523125" class="whatsapp-button" target="_blank"><i class="fab fa-whatsapp"></i></a>
+
+<script src="formulario.js"></script>
+</body>
+</html>
