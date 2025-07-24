@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>J&M Puertas Automáticas Perú</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="fotos/logo JJM v.jpg" alt="Logo J&M" />
+    </div>
+    <nav class="nav">
+      <a href="inicio.html">Inicio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="#" class="active">FAQ</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+    <div class="contacto">
+      <i class="fas fa-phone"></i> 955 523 125
+    </div>
+  </header>
+
+  <section id="faq">
+    <h2 class="text-center my-4">PREGUNTAS FRECUENTES</h2>
+    <div class="container mb-5">
+      <p class="text-center">Seleccione el tipo de puerta para ver las preguntas más frecuentes:</p>
+      <div class="d-flex flex-wrap justify-content-center gap-2 mb-4">
+        <button class="btn btn-faq" onclick="mostrarFAQ('seccional')"><i class="fas fa-warehouse"></i> Seccional</button>
+        <button class="btn btn-faq" onclick="mostrarFAQ('levadiza')"><i class="fas fa-door-open"></i> Levadiza</button>
+        <button class="btn btn-faq" onclick="mostrarFAQ('corrediza')"><i class="fas fa-arrows-alt-h"></i> Corrediza</button>
+        <button class="btn btn-faq" onclick="mostrarFAQ('batiente')"><i class="fas fa-door-closed"></i> Batiente</button>
+        <button class="btn btn-faq" onclick="mostrarFAQ('enrollable')"><i class="fas fa-stream"></i> Enrollable</button>
+      </div>
+      <div id="faqContainer" class="accordion"></div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-left">
+        <img src="fotos/logo JJM v.jpg" alt="Logo" class="footer-logo" style="max-width: 120px;"/>
+        <div class="footer-contact">
+          <p>Contáctenos:</p>
+          <p><i class="fas fa-phone"></i> 955 523 125</p>
+          <p><i class="fas fa-envelope"></i> jmventas@puertasautomaticas-peru.com</p>
+        </div>
+      </div>
+      <div class="social-icons d-flex align-items-center gap-2">
+        <a href="https://www.facebook.com/puertasdecocheras?locale=es_LA"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/company/puertas-autom%C3%A1ticas-per%C3%B9/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/puertas.automaticas.peru/"><i class="fab fa-instagram"></i></a>
+        <a href="https://es.pinterest.com/puertasautomaticasperu/"><i class="fab fa-pinterest"></i></a>
+        <a href="https://www.youtube.com/@puertasautomaticasperu3259"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+    <p class="footer-bottom text-center mt-2 mb-0">Copyright 2025 J&M Puertas Automáticas Perú, todos los derechos reservados.</p>
+  </footer>
+
+  <a href="https://wa.me/51955523125" class="whatsapp-button" target="_blank"><i class="fab fa-whatsapp"></i></a>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="preguntas.js"></script>
+</body>
+</html>

@@ -428,3 +428,42 @@ footer {
   width: 100%;
   height: 100%;
 }
+
+/* =========================
+   boton faq
+   ========================= */
+   
+.btn-faq {
+  border: 2px solid #007bff;
+  color: #007bff;
+  background-color: transparent;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-faq i {
+  color: #007bff;
+  margin-right: 8px;
+}
+
+.btn-faq:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-faq:hover i {
+  color: #fff;
+}
+
+.btn-faq:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.btn-faq.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-faq.active i {
+  color: #fff;
+}
